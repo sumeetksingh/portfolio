@@ -1,0 +1,144 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Navigation */
+nav {
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #00ffc8;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.grid-item {
+    background-size: cover;
+    background-position: center;
+    height: 200px; /* Adjust height as needed */
+}
+
+.hero-content {
+    position: relative;
+    z-index: 10;
+    margin-top: 50px; /* Adjust this value to move the headers down */
+}
+
+.fade-in {
+    opacity: 0; /* Start with opacity 0 for the animation */
+}
+
+.hero-title {
+    /* Add any specific styles for the hero title */
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Optional: Add any other styles you need */
+
+/* Sections */
+section {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: linear-gradient(45deg, #ff00ff, #00ffc8);
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 255, 200, 0.7);
+}
+
+/* Footer */
+footer {
+    background: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .grid-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .grid-item {
+        width: 80%;
+        height: 200px;
+    }
+}
+@keyframes fadeToBlack {
+    0% { opacity: 1; }
+    100% { opacity: 0.2; }
+}
+.animate-fadeToBlack {
+    animation: fadeToBlack 2s ease-in-out infinite;
+}

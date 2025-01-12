@@ -1,0 +1,65 @@
+SUMEET KUMAR SINGH
+(214) 517-5723 | sumeetkumarsingh@gmail.com | www.linkedin.com/in/sumeetksingh
+
+PROFESSIONAL SUMMARY
+
+Highly accomplished Product Manager with 6+ years of extensive experience in product and program management within the Technology/Cloud and E-commerce industries. Currently spearheading the development and execution of the last mile delivery products for Grocery and physical store businesses across North America at Amazon. Adept at driving excellence in Operations and Customer Service through the establishment of strong, trusted relationships and implementation of best practices. Renowned for being a motivated problem solver with exceptional organizational abilities, consistently recognized as a Top Performer.
+
+KEY STRENGTHS | SKILLS
+
+Tools: SQL, Tableau, Asana, PowerBI, Python, Google Analytics, JIRA, Confluence, MS Azure, AWS. Skills: Product Strategy, AB testing, Digital Marketing, CRM, CMS, Agile/Scrum, Kanban.
+PM Skills: Vision thinking, Roadmapping, Storytelling, Design thinking, Requirement analysis, Market Research. 
+
+BUSINESS EXPERIENCE
+
+GPC | Supply Chain Product Manager
+Bachelor's degree or equivalent
+ 5+ years of product or program management, product marketing, business development or technology experience
+ Experience in areas such as market research, statistics, finance or qualitative/quantitative research
+ Experience in delivering end-to-end customer research studies, including study design, fieldwork (qualitative research moderation and survey execution), analysis, recommendations, reporting and presentation of results to senior leadership
+ Experience working across functional teams and senior stakeholders
+ 5+ years of transportation asset management and maintenance experience, either as a business user or solutions provider
+
+AMAZON | Product Manager, Global Specialty Fulfillment	                July 2021 - Present
+Leading ecommerce last mile product strategy and program roadmap of delivery tech systems for Amazon’s grocery program, launching over 150+ grocery stores successfully across North America, SG and UK regions.
+Delivered $20M+ in annual savings by migrating 15 legacy stores to Amazon Fresh Online.
+Led product strategy to improve delivery operations from UTR (under the roof) and increase delivery speed for more than 100,000 customers by optimizing delivery windows for more than 200 ZIP codes.
+Proficiently developed user stories and product features that effectively catered to customer requirements and business goals, facilitating the successful execution of omni-channel program development and delivery.
+Developed dashboards for the purpose of reporting key performance indicators (KPIs) within the last-mile system, such as 'Driver assigned, not picked up,' 'Full Order Not Delivered,' and 'Partial order not delivered,' with the objective of enhancing delivery operations for under the roof operators.
+Spearheaded cross-functional teams composed of engineers, program/product managers, and stakeholders to successfully usher new products and features related to routing, exception management, and bulk configurations into production within delivery systems..
+Developed complex SQL queries to find insights on grocery landing pages and improve CX to increase visibility of available windows for all grocery shopping customers. 
+
+WEST HOUSTON DENTISTRY | Marketing Data Analyst Intern	         August 2020 - Feb 2021
+Responsible for leading marketing efforts and increasing reservations through web bookings for this Dentistry.
+Identified KPI’s from each campaign and increased the impressions by 40% through specific keywords.
+Curated and analyzed several Google Search and Display Ads campaigns with Google Analytics. 
+Gained Insights from querying data in SQL and developed A/B testing models for different campaigns resulting in 35% higher conversion rate in call to action (CTA) campaigns.
+
+CROWNCLOUD.NET | Product Manager	                                 August 2017 -  August 2019
+Led operations and development of multiple projects, including the hardware inventory management system, cloud storage backup service and customer facing server management portal.
+Owned the product strategy and roadmap for dedicated and shared servers resulting in 25% growth of customer base and developed and executed go-to-market plans for new products, including messaging, positioning, pricing, and promotional strategies, resulting in 10,000+ signups.
+Successfully defined and executed on OKRs that resulted in a 25% increase in monthly active users of our cloud computing platform in Q2, through launching new product “Crownpanel” and increasing engagement by 30%, reducing churn rate by 10% through improvements in onboarding and user education.
+Launched a Chatbot to handle support queries and create internal JIRA tickets for ops and support teams.
+Leveraged data-driven insights and feedback from stakeholders to strategically prioritize items within the server management product backlog, effectively navigating trade-offs among scope, schedule, and resource allocation.
+Authored detailed Product Requirement Documents (PRDs) and User Stories, outlining functional and technical specifications, API diagramming, use cases, and acceptance criteria to guide development efforts and ensure alignment with business goals.
+
+VMStack IT PVT LTD |Business Development Associate 		 August 2016 - August 2017
+Led cross-functional teams to develop and implement innovative tech solutions for enhancing operational efficiency and driving business growth especially with ‘Stack it portal’
+Spearheaded the design and deployment of tech support web portal, streamlining operating processes and costs by 20%.
+Collaborated with engineering and product teams to define project roadmaps and set strategic milestones, ensuring successful service launches of VoIP call center functions and meeting stakeholder expectations.
+
+
+EDUCATION
+
+The University of Texas at Dallas -                                                                                          May 2021
+Master’s in Information Technology and Management, GPA: 3.6/4                                                            
+Dayanand Sagar College of Engineering, Bangalore -                                                         June 2017
+Bachelor’s in Information Science Engineering 
+
+                                                                   HONORS AND AWARDS   
+
+Founding Member/ Shareholder at VMStack IT Pvt ltd.
+Tableau Desktop Specialist - May 2021
+Microsoft scholar for AutoML - Udacity - Jan 2021
+Product Speaker at ‘PM mentorship’ for  University of Texas at Dallas - Aug 2022
+Member/Volunteer for Data Analytics Club for University of Texas at Dallas - Aug 2019                                                                                     
