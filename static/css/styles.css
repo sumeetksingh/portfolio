@@ -187,3 +187,20 @@ footer {
 .animate-fadeToBlack {
     animation: fadeToBlack 2s ease-in-out infinite;
 }
+/* Skills */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+.skill-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    backdrop-filter: blur(10px);
+}
+.btn-secondary {
+    background: linear-gradient(45deg, #f472b6, #ec4899);
+}
