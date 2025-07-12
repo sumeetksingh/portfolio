@@ -4,68 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sumeet | AI/ML Product Manager Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 </head>
 <body class="bg-gray-900 text-white">
-    <nav class="fixed top-0 w-full bg-gray-800 bg-opacity-90 backdrop-blur-lg p-4 z-50">
-        <ul class="flex justify-center space-x-6">
-            <li><a href="index.html" class="hover:text-teal-400">Home</a></li>
-            <li><a href="about.html" class="hover:text-teal-400">About</a></li>
-            <li><a href="projects.html" class="hover:text-teal-400">Projects</a></li>
-            <li><a href="contact.html" class="hover:text-teal-400">Contact</a></li>
-        </ul>
-    </nav>
-    
-    <header class="relative flex flex-col items-center justify-center h-screen text-center">
-        <div class="grid grid-cols-3 gap-4 absolute inset-0 w-full h-full opacity-70 overflow-hidden">
-            <video autoplay loop muted playsinline class="w-full h-full object-cover col-span-1">
-                <source src="{{ url_for('static', filename='images/ww.mp4') }}" type="video/mp4">
-            </video>
-            <div class="w-full h-full bg-cover bg-center rounded-lg shadow-lg z-10 col-span-1" style="background-image: url('{{ url_for('static', filename='images/IMG_1590.jpg') }}');"></div>
-            <video autoplay loop muted playsinline class="w-full h-full object-cover col-span-1">
-                <source src="{{ url_for('static', filename='images/prd.mp4') }}" type="video/mp4">
-            </video>
+    <nav class="fixed top-0 w-full bg-gray-800 bg-opacity-70 backdrop-blur-lg z-50 transition-shadow">
+        <div class="container flex items-center justify-between py-4">
+            <a href="#" class="text-xl font-bold">Sumeet</a>
+            <ul class="flex space-x-6">
+                <li><a href="#" class="hover:text-teal-400">Home</a></li>
+                <li><a href="#about" class="hover:text-teal-400">About</a></li>
+                <li><a href="#projects" class="hover:text-teal-400">Projects</a></li>
+                <li><a href="#contact" class="hover:text-teal-400">Contact</a></li>
+            </ul>
         </div>
+    </nav>
+
+    <header class="hero relative flex items-center justify-center text-center">
+        <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover">
+            <source src="{{ url_for('static', filename='images/video.mp4') }}" type="video/mp4">
+        </video>
+        <div class="absolute inset-0 bg-black opacity-50"></div>
         <div class="relative z-20 mt-20">
-            <h1 class="text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-teal-600 via-white to-cyan-500 drop-shadow-lg animate-fadeToBlack">Sumeet</h1>
-            <p class="mt-4 text-xl font-semibold bg-gray-800 px-4 py-2 rounded-lg shadow-lg">AI & ML Product Manager | Innovator | Strategist</p>
+            <h1 class="text-6xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-teal-400 via-purple-400 to-pink-500 drop-shadow-lg animate-fadeToBlack">Sumeet</h1>
+            <p class="mt-6 text-2xl font-semibold">AI & ML Product Manager | Innovator | Strategist</p>
         </div>
     </header>
     
-    <section class="py-16 text-center">
-        <h2 class="text-3xl font-bold text-teal-400">About Me</h2>
-        <p class="mt-4 max-w-2xl mx-auto">I am an experienced AI/ML Product Manager specializing in predictive modeling, data science, and strategic innovation in the supply chain sector.</p>
-        <a href="about.html" class="mt-6 inline-block px-6 py-3 bg-teal-500 rounded-lg text-white font-semibold hover:bg-teal-600">Learn More</a>
-    </section>
-    
-    <section class="py-16 text-center bg-gray-800">
-        <h2 class="text-3xl font-bold text-purple-400">Projects</h2>
-        <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-            <div class="p-6 bg-gray-700 rounded-lg shadow-lg">
-                <h3 class="text-xl font-semibold">Predictive Stocking Model</h3>
-                <p class="mt-2">An ML-based stocking model enhancing efficiency and reducing overstock in retail supply chains.</p>
-            </div>
-            <div class="p-6 bg-gray-700 rounded-lg shadow-lg">
-                <h3 class="text-xl font-semibold">Assortment Planning System</h3>
-                <p class="mt-2">A cutting-edge AI-powered assortment planning system for demand forecasting.</p>
+    <section id="about" class="py-20">
+        <div class="container md:flex items-center gap-10">
+            <img src="{{ url_for('static', filename='images/IMG_1590.jpg') }}" class="w-full md:w-1/3 rounded-lg shadow-lg mb-8 md:mb-0" alt="Sumeet">
+            <div class="md:flex-1 text-center md:text-left">
+                <h2 class="text-4xl font-bold text-teal-400">About Me</h2>
+                <p class="mt-4">I am an experienced AI/ML Product Manager specializing in predictive modeling, data science and strategic innovation in the supply chain sector.</p>
+                <a href="about.html" class="btn mt-6 inline-block">Learn More</a>
             </div>
         </div>
-        <a href="projects.html" class="mt-6 inline-block px-6 py-3 bg-purple-500 rounded-lg text-white font-semibold hover:bg-purple-600">View More Projects</a>
     </section>
-    <section class="py-16 text-center">
-        <h2 class="text-3xl font-bold text-teal-400">Job Match Analyzer</h2>
-        <p class="mt-4 max-w-2xl mx-auto">Enter a LinkedIn job posting URL below to see how well I match!</p>
-        
-        <div class="mt-6 max-w-lg mx-auto">
-            <input type="text" id="jobUrl" class="w-full p-3 border rounded-md text-black" placeholder="Enter LinkedIn Job URL">
-            <button onclick="analyzeJob()" class="mt-4 px-6 py-3 bg-teal-500 rounded-lg text-white font-semibold hover:bg-teal-600">
-                Analyze Match
-            </button>
+
+    <section id="projects" class="py-20 alt-bg">
+        <div class="container">
+            <h2 class="text-4xl font-bold text-purple-400 text-center">Projects</h2>
+            <div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="project-card">
+                    <h3 class="text-xl font-semibold">Predictive Stocking Model</h3>
+                    <p class="mt-2">An ML-based stocking model enhancing efficiency and reducing overstock in retail supply chains.</p>
+                </div>
+                <div class="project-card">
+                    <h3 class="text-xl font-semibold">Assortment Planning System</h3>
+                    <p class="mt-2">A cutting-edge AI-powered assortment planning system for demand forecasting.</p>
+                </div>
+            </div>
+            <a href="projects.html" class="btn mt-8 inline-block">View More Projects</a>
         </div>
-    
-        <div id="matchResult" class="mt-6 text-xl font-semibold"></div>
+    </section>
+    <section id="analyzer" class="py-20">
+        <div class="container text-center">
+            <h2 class="text-4xl font-bold text-teal-400">Job Match Analyzer</h2>
+            <p class="mt-4 max-w-2xl mx-auto">Enter a LinkedIn job posting URL below to see how well I match!</p>
+            <div class="mt-6 max-w-lg mx-auto">
+                <input type="text" id="jobUrl" class="w-full p-3 rounded-md text-black" placeholder="Enter LinkedIn Job URL">
+                <button onclick="analyzeJob()" class="btn mt-4 w-full">Analyze Match</button>
+            </div>
+            <div id="matchResult" class="mt-6 text-xl font-semibold"></div>
+        </div>
     </section>
     
     <script>
@@ -81,10 +86,10 @@
     }
     </script>
     
-    <section class="py-16 text-center">
-        <h2 class="text-3xl font-bold text-teal-400">Contact</h2>
+    <section id="contact" class="py-20 text-center">
+        <h2 class="text-4xl font-bold text-teal-400">Contact</h2>
         <p class="mt-4">Let's connect and discuss AI/ML-driven solutions.</p>
-        <a href="contact.html" class="mt-6 inline-block px-6 py-3 bg-teal-500 rounded-lg text-white font-semibold hover:bg-teal-600">Get in Touch</a>
+        <a href="contact.html" class="btn mt-6 inline-block">Get in Touch</a>
     </section>
 
     <footer class="py-6 bg-gray-800 text-center">
@@ -92,7 +97,7 @@
     </footer>
 
     <script>
-        gsap.from(".grid div", {
+        gsap.from(".project-card", {
             opacity: 0,
             y: 50,
             duration: 1.5,
@@ -105,6 +110,15 @@
             y: -30,
             duration: 1,
             ease: "power2.out"
+        });
+
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
         });
     </script>
 </body>

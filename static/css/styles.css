@@ -1,22 +1,29 @@
 /* General Styles */
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #121212;
-    color: white;
+    font-family: 'Inter', 'Poppins', sans-serif;
+    background: radial-gradient(circle at top left, #0f172a, #020617);
+    color: #f8fafc;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 /* Navigation */
 nav {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(2, 6, 23, 0.7);
     position: fixed;
     width: 100%;
     padding: 15px 0;
     text-align: center;
     backdrop-filter: blur(10px);
     z-index: 1000;
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.scrolled {
+    box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.9);
 }
 
 nav ul {
@@ -52,6 +59,14 @@ nav ul li a:hover {
     overflow: hidden;
 }
 
+.hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: brightness(0.7);
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -62,6 +77,25 @@ nav ul li a:hover {
     background-size: cover;
     background-position: center;
     height: 200px; /* Adjust height as needed */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.project-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
 }
 
 .hero-content {
@@ -90,11 +124,15 @@ section {
     text-align: center;
 }
 
+.alt-bg {
+    background: rgba(255, 255, 255, 0.05);
+}
+
 /* Buttons */
 .btn {
     display: inline-block;
     padding: 12px 25px;
-    background: linear-gradient(45deg, #ff00ff, #00ffc8);
+    background: linear-gradient(45deg, #14b8a6, #8b5cf6);
     color: white;
     text-decoration: none;
     border-radius: 30px;
@@ -104,7 +142,7 @@ section {
 
 .btn:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 20px rgba(0, 255, 200, 0.7);
+    box-shadow: 0 0 20px rgba(139, 92, 246, 0.6);
 }
 
 /* Footer */
@@ -133,6 +171,13 @@ footer {
     .grid-item {
         width: 80%;
         height: 200px;
+    }
+}
+
+@media (max-width: 640px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
     }
 }
 @keyframes fadeToBlack {
